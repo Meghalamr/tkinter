@@ -1,0 +1,13 @@
+from tkinter import *
+root = Tk()
+
+#creating the function
+def myclick():
+    mylabel = Label(root,text='I clicked the button!')
+    mylabel.pack()
+    
+#creating the button and calling the function to dispaly the msg after clicking the button
+mybutton = Button(root,text='Click me!',command=myclick, fg='blue',bg='white')
+mybutton.pack()
+
+root.mainloop()

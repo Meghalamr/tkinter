@@ -1,0 +1,8 @@
+from tkinter import * #(import everything)
+#in tkinter everything is widget to create the window we use root
+root = Tk()
+#creating label widget
+mylabel = Label(root, text='Hello World')
+# shoving it on to the screen
+mylabel.pack()
+root.mainloop()
